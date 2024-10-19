@@ -1,0 +1,21 @@
+{
+    "name": "Mi PWA",
+    "short_name": "PWA",
+    "description": "Una Progressive Web App sin PHP",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#4CAF50",
+    "icons": [
+        {
+            "src": "/img/codigo.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "/img/codigo.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ]
+}
