@@ -1,10 +1,10 @@
 {
-    "name": "Mi PWA",
-    "short_name": "PWA",
-    "description": "Una Progressive Web App sin PHP",
+    "name": "Mi Portafolio Web",
+    "short_name": "mi Portafolio web - pwa",
+    "description": "Actualmente estoy trabajando en Colombia",
     "start_url": "/",
     "display": "standalone",
-    "background_color": "#ffffff",
+    "background_color": "#001F3F",
     "theme_color": "#4CAF50",
     "icons": [
         {
