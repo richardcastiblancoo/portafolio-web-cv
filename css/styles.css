@@ -341,7 +341,7 @@ h3 {
 /* responsivo */
 @media (max-width: 768px) {
   .logo-dev{
-    margin-left: 290px;
+    margin-left: 500px;
   }
 
   h1{
@@ -356,18 +356,20 @@ h3 {
     display: flex;
   }
 
+  /* contacto */
   .main-1{
     display: grid;
     margin-bottom: 100px;
   }
 
   .contenedor-perfil{
-    margin-top: 0px;
+    margin-top: 10px;
+    margin-left: 40px;
   }
 
   .perfil-richard{
     display: grid;
-    margin-left: 50px;
+    margin-left: 100px;
   }
 
   .richard{
@@ -378,17 +380,24 @@ h3 {
   .richard-h2{
     display: grid;
     text-align: center;
-    margin-left: 2px;
   }
 
   .modo-contacto{
     display: grid;
   }
 
-  .parrafo1{
-    display: grid;
-    width: 350px;
+  .contenedor-parrafo{
     margin-left: 20px;
+  }
+
+  .enlace-contacto{
+    width: 350px;
+    margin-left: 50px;
+  }
+
+  .parrafo1{
+    width: 400px;
+    margin-left: 50px;
   }
 
   .perfil-1{
@@ -399,7 +408,7 @@ h3 {
   .skills {
     margin-top: 100px;
     margin-bottom: 50px;
-    margin-left: -40px;
+    margin-left: 10px;
   }
 
   .skills-container {
@@ -416,26 +425,27 @@ h3 {
     display: grid;
     flex-direction: column;
     align-items: center;
-    margin-right: 70px;
   }
 
   .h2-certificado{
     text-align: center;
-    margin-right: 60px;
+    margin-right: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
 
   .imagenes-certificados-1{
-    width: 350px;
+    width: 400px;
   }
 
   .imagenes-certificados{
-    width: 350px;
+    width: 400px;
   }
 
   /* footer */
   .footer-parrafo{
-    font-size: 1rem;
-
-    font-weight: 900;
+    font-size: 0.7rem;
+    margin-left: 45px;
+    font-weight: 800;
   }
 }
