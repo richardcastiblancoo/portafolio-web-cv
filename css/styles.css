@@ -13,6 +13,30 @@ body{
   background-color: #0B192C;
 }
 
+html {
+  scrollbar-width: thin; 
+  scrollbar-color: #4A628A #f1f1f1; 
+}
+
+
+::-webkit-scrollbar {
+  width: 12px; 
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1; 
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888; 
+  border-radius: 10px; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555; 
+}
+
+
 /* header */
 .header{
   display: flex;
@@ -54,6 +78,10 @@ body{
   justify-content: center;
   color: white;
   text-decoration: none;
+}
+
+.content:hover{
+  color: #FF8225;
 }
 
 /* Botón de hamburguesa */
@@ -131,6 +159,7 @@ body{
 .perfil-1{
   width: 500px;
 }
+
 .perfil-richard{
   display: flex;
   align-items: center;
@@ -141,16 +170,24 @@ body{
 }
 
 .richard{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   width: 80px;
   border-radius: 100px;
   border: solid 2px white;
 }
 
 .richard-h2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
   color: white;
   font-size: 2.5rem;
   font-weight: 900;
+  margin-top: 25px;
 }
 
 /* contactos */
@@ -174,6 +211,11 @@ body{
   color: white;
   gap: 10px;
   border-radius: 10px;
+}
+
+.enlace-contacto:hover{
+  background-color: #FFDC7F;
+  color: black;
 }
 
 .contactos{
@@ -239,6 +281,21 @@ h3 {
   transform: scale(1.2);
 }
 
+/* proyectos */
+.section-proyectos{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.contenedor-proyesto{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.h2-proyecto{
+  text-align: center;
+}
 
 /* certificados */
 .contenedor-certificados{
@@ -247,7 +304,7 @@ h3 {
 }
 
 .h2-certificado{
-  color: white;
+  color: #f8c471;
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
