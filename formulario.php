@@ -30,7 +30,7 @@
     <div class="container">
         <div class="form-container">
             <h2>Información Personal</h2>
-            <form id="personalForm">
+            <form id="personalForm" action="submit.php" method="POST">
                 <div class="form-group">
                     <label for="nombre">Nombre</label>
                     <input type="text" id="nombre" name="nombre" >
