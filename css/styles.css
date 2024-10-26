@@ -142,6 +142,25 @@ html {
   left: 0;
 }
 
+.contenedor-formulario{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.formulario{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #EB8317;
+  width: 180px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  height: 35px;
+  border-radius: 50px;
+}
+
 /* main */
 .parrafo1{
   color: wheat;
@@ -325,8 +344,9 @@ h3 {
   width: 380px;
 }
 
-/* formulario */
-
+.imagenes-certificados-python{
+  width: 320px;
+}
 
 /* footer */
 .footer{
